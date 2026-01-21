@@ -6,16 +6,10 @@ AI project applying machine learning in Python to classify software quality. Imp
 - Language: Python
 - Platform: Google Colab
 
-
-
-
 📌 Overview
 
 This repository contains my CSE422 (Artificial Intelligence) lab project, completed in Fall 2025, where I applied machine learning techniques to analyze and predict software quality labels using Python.
 The project covers the entire ML pipeline — from exploratory data analysis (EDA) and data preprocessing to supervised classification and unsupervised clustering.
-
-
-
 
 🎯 Objectives
 
@@ -62,29 +56,17 @@ The project covers the entire ML pipeline — from exploratory data analysis (ED
 
 -Statistical summary of features
 
+
 🤖 Machine Learning Models Used
 
 
 
-✅ Supervised Learning
 
 -Logistic Regression
 
 -Naive Bayes
 
 -Neural Network (MLPClassifier)
-
-
-
-🔄 Unsupervised Learning
-
--K-Means Clustering
-
--Elbow method for optimal cluster selection
-
--Cluster visualization
-
--Cluster vs Quality Label comparison
 
 
 
@@ -99,7 +81,7 @@ Each supervised model was evaluated using:
 
 -Recall
 
--F1-score
+-F1-Score
 
 -Confusion Matrix
 
@@ -113,7 +95,7 @@ Each supervised model was evaluated using:
 📊 Comparative bar charts and visualizations are included for clear performance analysis.
 
 
-Libraries:
+🎓 Libraries:
 
 -NumPy
 
