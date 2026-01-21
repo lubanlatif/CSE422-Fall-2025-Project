@@ -9,126 +9,134 @@ AI project applying machine learning in Python to classify software quality. Imp
 
 
 📌 Overview
+
 This repository contains my CSE422 (Artificial Intelligence) lab project, completed in Fall 2025, where I applied machine learning techniques to analyze and predict software quality labels using Python.
 The project covers the entire ML pipeline — from exploratory data analysis (EDA) and data preprocessing to supervised classification and unsupervised clustering.
 
 
 🎯 Objectives
-Analyze a real-world software quality dataset
 
-Perform EDA to uncover patterns and relationships
+-Analyze a real-world software quality dataset
 
-Build and evaluate multiple classification models
+-Perform EDA to uncover patterns and relationships
 
-Treat the problem as unsupervised and apply K-Means clustering
+-Build and evaluate multiple classification models
 
-Compare models using standard evaluation metrics
+-Treat the problem as unsupervised and apply K-Means clustering
+
+-Compare models using standard evaluation metrics
+
 
 📊 Dataset Information
-Target Feature: Quality Label
 
-Problem Type: Multi-class Classification
+-Target Feature: Quality Label
 
-Features: Numerical software metrics
+-Problem Type: Multi-class Classification
 
-Preprocessing Applied:
+-Features: Numerical software metrics
 
-Label encoding
+-Preprocessing Applied:
 
-Feature scaling (StandardScaler)
+-Label encoding
 
-Stratified train–test split
+-Feature scaling (StandardScaler)
+
+-Stratified train–test split
 
 🔍 Exploratory Data Analysis (EDA)
-Target class distribution analysis (imbalance check)
 
-Correlation heatmap using Seaborn
+-Target class distribution analysis (imbalance check)
 
-Pairwise feature relationships
+-Correlation heatmap using Seaborn
 
-Statistical summary of features
+-Pairwise feature relationships
+
+-Statistical summary of features
 
 🤖 Machine Learning Models Used
+
 ✅ Supervised Learning
-Logistic Regression
 
-Naive Bayes
+-Logistic Regression
 
-Neural Network (MLPClassifier)
+-Naive Bayes
+
+-Neural Network (MLPClassifier)
 
 🔄 Unsupervised Learning
-K-Means Clustering
 
-Elbow method for optimal cluster selection
+-K-Means Clustering
 
-Cluster visualization
+-Elbow method for optimal cluster selection
 
-Cluster vs Quality Label comparison
+-Cluster visualization
+
+-Cluster vs Quality Label comparison
 
 📈 Model Evaluation Metrics
+
 Each supervised model was evaluated using:
 
-Accuracy
+-Accuracy
 
-Precision
+-Precision
 
-Recall
+-Recall
 
-F1-score
+-F1-score
 
-Confusion Matrix
+-Confusion Matrix
 
-ROC–AUC Score (One-vs-Rest)
+-ROC–AUC Score (One-vs-Rest)
 
-ROC Curves (Multi-class)
+-ROC Curves (Multi-class)
 
 📊 Comparative bar charts and visualizations are included for clear performance analysis.
 
-🧪 Technologies & Tools
-Language: Python
-
-Platform: Google Colab
 
 Libraries:
 
-NumPy
+-NumPy
 
-Pandas
+-Pandas
 
-Matplotlib
+-Matplotlib
 
-Seaborn
+-Seaborn
 
-Scikit-learn
+-Scikit-learn
 
 
 ▶️ How to Run (Google Colab)
-Open Google Colab
 
-Upload the notebook (.ipynb)
+-Open Google Colab
 
-Upload the dataset (software_quality_dataset.csv)
+-Upload the notebook (.ipynb)
 
-Run cells sequentially from top to bottom
+-Upload the dataset (software_quality_dataset.csv)
 
-No additional setup required.
+-Run cells sequentially from top to bottom
+
+-No additional setup required.
 
 🧠 Key Findings
-Neural Network achieved the best overall performance due to non-linear learning capability
 
-Logistic Regression provided stable and interpretable results
+-Neural Network achieved the best overall performance due to non-linear learning capability
 
-Naive Bayes showed lower performance due to feature dependency
+-Logistic Regression provided stable and interpretable results
 
-K-Means clustering revealed meaningful natural groupings aligned with quality labels
+-Naive Bayes showed lower performance due to feature dependency
+
+-K-Means clustering revealed meaningful natural groupings aligned with quality labels
 
 ⚠️ Challenges Faced
-Handling class imbalance
 
-Interpreting multi-class ROC curves
+-Handling class imbalance
 
-Choosing optimal number of clusters
+-Interpreting multi-class ROC curves
 
-Ensuring fair model comparison
+-Choosing optimal number of clusters
+
+-Ensuring fair model comparison
 
 
